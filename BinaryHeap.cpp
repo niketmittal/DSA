@@ -11,8 +11,8 @@ void swap(int* a, int* b)
 class Heap
 {
     int *harr; // pointer to array of elements in heap
-    int capacity; // maximum possible size of min heap
-    int heap_size; // Current number of elements in min heap
+    int capacity; // maximum possible size of heap
+    int heap_size; // Current number of elements in heap
 public:
     // Constructor
     Heap(int capacity);
